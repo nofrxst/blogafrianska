@@ -1,0 +1,50 @@
+article{
+    padding-top: 10px;
+}
+.container-allarticle{
+    margin:  20px 15px;
+    .allarticle-article1{
+        display: flex;
+        
+    }
+
+    .allarticle-information{
+        padding: 0 20px;
+    
+
+        & h3{
+            font-size: 20px;
+            font-family: Helvetica;
+            font-weight: bold;
+            line-height: 46px;
+            letter-spacing: 0.04em;
+            color: #1F3F68;  
+        }
+    
+        & p {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            line-height: 26px;
+            letter-spacing: 0.04em;
+            color: black;
+            text-align: justify;
+        }
+    }
+}
+
+
+@media (max-width:600px){
+    .container-allarticle{
+        width: 100%;
+       
+        .allarticle-article1{
+            display: block;
+
+            & img{
+                width: 100%;
+            }
+            
+        }
+    }
+}
